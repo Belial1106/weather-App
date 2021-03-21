@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WeatherToday</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="favicon/sunny.png"/>
+  </head>
+  <body>
+    <div class="weather">
+      <input
+        type="search"
+        list="suggestions"
+        class="weather-search"
+        placeholder="Type in your city"
+      />
+      <datalist id="suggestions">
+      </datalist>
+      <div class="weather-today">
+        <div class="weather-details">
+          <h2 class="weather-city">City</h2>
+          <p class="weather-day">Day</p>
+          <div class="weather-current">
+            <p class="weather-current weather-current-humidity">
+              <span class="value">50</span> %
+            </p>
+            <p class="weather-current weather-current-wind">
+              <span class="value">South, 5</span> m/s
+            </p>
+            <p class="weather-current weather-current-pressure">
+              <span class="value">1024</span> hPa
+            </p>
+          </div>
+        </div>
+        <img src="images/clear-sky.png" alt="clear-sky" class="weather-image" />
+        <div class="weather-temperature">
+          <span class="value">+20</span> &deg;C
+        </div>
+      </div>
+      <div class="weather-forecast">
+        <article class="weather-forecast-items">
+          <img
+            src="images/rain.png"
+            alt="rain"
+            class="weather-forecast-icons"
+          />
+          <h3 class="weather-forecast-day">Day</h3>
+          <p class="weather-forecast-temperature">
+            <span class="value">+20</span> &deg;C
+          </p>
+        </article>
+        <article class="weather-forecast-items">
+          <img
+            src="images/rain.png"
+            alt="rain"
+            class="weather-forecast-icons"
+          />
+          <h3 class="weather-forecast-day">Day</h3>
+          <p class="weather-forecast-temperature">
+            <span class="value">+20</span> &deg;C
+          </p>
+        </article>
+        <article class="weather-forecast-items">
+          <img
+            src="images/rain.png"
+            alt="rain"
+            class="weather-forecast-icons"
+          />
+          <h3 class="weather-forecast-day">Day</h3>
+          <p class="weather-forecast-temperature">
+            <span class="value">+20</span> &deg;C
+          </p>
+        </article>
+        <article class="weather-forecast-items">
+          <img
+            src="images/rain.png"
+            alt="rain"
+            class="weather-forecast-icons"
+          />
+          <h3 class="weather-forecast-day">Day</h3>
+          <p class="weather-forecast-temperature">
+            <span class="value">+20</span> &deg;C
+          </p>
+        </article>
+        <article class="weather-forecast-items">
+          <img
+            src="images/rain.png"
+            alt="rain"
+            class="weather-forecast-icons"
+          />
+          <h3 class="weather-forecast-day">Day</h3>
+          <p class="weather-forecast-temperature">
+            <span class="value">+20</span> &deg;C
+          </p>
+        </article>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
